@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\day-2\\Task3\\Task3\\Task3.csproj",
-      "projectName": "Task3",
-      "projectPath": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\day-2\\Task3\\Task3\\Task3.csproj",
+      "projectUniqueName": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\Task3withMethod\\Task3withMethod\\Task3withMethod.csproj",
+      "projectName": "Task3withMethod",
+      "projectPath": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\Task3withMethod\\Task3withMethod\\Task3withMethod.csproj",
       "packagesPath": "C:\\Users\\rcing\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\day-2\\Task3\\Task3\\obj\\",
+      "outputPath": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\Task3withMethod\\Task3withMethod\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

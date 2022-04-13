@@ -1,0 +1,14 @@
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\bin\Debug\netcoreapp3.1\task4withmethod.exe
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\bin\Debug\netcoreapp3.1\task4withmethod.deps.json
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\bin\Debug\netcoreapp3.1\task4withmethod.runtimeconfig.json
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\bin\Debug\netcoreapp3.1\task4withmethod.runtimeconfig.dev.json
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\bin\Debug\netcoreapp3.1\task4withmethod.dll
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\bin\Debug\netcoreapp3.1\task4withmethod.pdb
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\obj\Debug\netcoreapp3.1\task4withmethod.csproj.AssemblyReference.cache
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\obj\Debug\netcoreapp3.1\task4withmethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\obj\Debug\netcoreapp3.1\task4withmethod.AssemblyInfoInputs.cache
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\obj\Debug\netcoreapp3.1\task4withmethod.AssemblyInfo.cs
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\obj\Debug\netcoreapp3.1\task4withmethod.csproj.CoreCompileInputs.cache
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\obj\Debug\netcoreapp3.1\task4withmethod.dll
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\obj\Debug\netcoreapp3.1\task4withmethod.pdb
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\task4withmethod\task4withmethod\obj\Debug\netcoreapp3.1\task4withmethod.genruntimeconfig.cache
