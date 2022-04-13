@@ -1,0 +1,14 @@
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\bin\Debug\netcoreapp3.1\Task3.exe
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\bin\Debug\netcoreapp3.1\Task3.deps.json
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\bin\Debug\netcoreapp3.1\Task3.runtimeconfig.json
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\bin\Debug\netcoreapp3.1\Task3.runtimeconfig.dev.json
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\bin\Debug\netcoreapp3.1\Task3.dll
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\bin\Debug\netcoreapp3.1\Task3.pdb
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.AssemblyReference.cache
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\obj\Debug\netcoreapp3.1\Task3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfoInputs.cache
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfo.cs
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.CoreCompileInputs.cache
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\obj\Debug\netcoreapp3.1\Task3.dll
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\obj\Debug\netcoreapp3.1\Task3.pdb
+C:\Users\rcing\OneDrive\İş masası\HomeWorks\Task3\Task3\obj\Debug\netcoreapp3.1\Task3.genruntimeconfig.cache
