@@ -8,7 +8,7 @@ namespace Task4
         {
             //2. Verilmiş tam müsbət n ədədinin rəqəmlərinin cəmini tapan alqoritm (Məsələn: 214 ədədinin rəqəmləri cəmi 2+1+4 = 7)
             int number=Convert.ToInt32(Console.ReadLine());
-            int sum = 0;
+            int sum = default(int);
             int digit;
             while (number>0)
             {
