@@ -54,7 +54,7 @@ namespace ConsoleApp2
             }
             else if (divide > 100)
             {
-                Console.WriteLine(divide + " Ededine qeder 5 e bolunen edeler");
+                Console.WriteLine(divide + " Ededine qeder 8 e bolunen edeler");
 
                 for (int i = 1; i < divide; i++)
                 {
