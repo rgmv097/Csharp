@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2
+namespace ConsoleApp5
 {
     internal class Program
     {
@@ -9,72 +9,58 @@ namespace ConsoleApp2
             //1 eded daxil edin. Eger o eded 50den kicikdirse o edede qeder 3-e bolunen,
             //50-100 araligindadirsa o edede qeder 5e bolunen, 100den boyukdurse o edede qeder
             //8 e bolunen ededleri ayri bir arrayin icerisine elave edib, bolunen butun ededleri ekrana cixardan bir alqoritm
-            int divide = Convert.ToInt32(Console.ReadLine());
-            Digit(divide);
+            int InputName = Convert.ToInt32(Console.ReadLine());
+            int size = 0;
+            int InccreasingNum = 0;
+            if (InputName < 50)
+            {
+                int ModNum = 3;
 
+                size = SizeOfArr(InputName, size, ModNum);
+                Console.WriteLine("Size OF ARR: " + size);
+                NewArr(size, ModNum, InccreasingNum);
+            }
+            if (InputName > 50 && InputName < 100)
+            {
+                int ModNum = 5;
+                size = SizeOfArr(InputName, size, ModNum);
+                Console.WriteLine("Size OF ARR: " + size);
+                NewArr(size, ModNum, InccreasingNum);
+            }
+            if (InputName > 100)
+            {
+                int ModNum = 8;
+                size = SizeOfArr(InputName, size, ModNum);
+                Console.WriteLine("Size OF ARR: " + size);
+                NewArr(size, ModNum, InccreasingNum);
+            }
         }
-        public static void Digit(int divide)
+        public static int SizeOfArr(int InputNum, int Size, int ModNum)
         {
-            int count = 0;
-            for (int i = 0; i < divide; i++)
+            for (int i = 1; i < InputNum; i++)
             {
-                if (divide < 50 && i % 3 == 0)
-                {
-                    count++;
+                if (i % ModNum == 0) { Size++; }
 
-                }
-                else if (divide > 50 && divide < 100 && i % 5 == 0)
-                {
-                    count++;
-
-                }
-                else if (divide > 100 && i % 8 == 0)
-                {
-                    count++;
-                }
             }
-            Console.WriteLine("Masivin element sayi:" + count + "\n");
-            int[] arr = new int[count];
-            int k = 0;
-            for (int i = 0; i < divide; i++)
-            {
-
-                if (i % 3 == 0 && divide < 50)
-                {
-                    for (int j = 0; j < arr.Length; j++)
-                    {
-                        arr[j] = i;
-                        arr[k] = arr[j];
-                    
-                  }
-                    Console.WriteLine(arr[k]);
-                }
-
-                else if (divide > 50 && divide < 100 && i % 5 == 0)
-                {
-
-                    for (int j = 0; j < arr.Length; j++)
-                    {
-                        arr[j] = i;
-                        arr[k] = arr[j];
-
-                    }
-                    Console.WriteLine(arr[k]);
-
-                }
-                else if (divide > 100 && i % 8 == 0)
-                {
-
-                    for (int j = 0; j < arr.Length; j++)
-                    {
-                        arr[j] = i;
-                        arr[k] = arr[j];
-
-                    }
-                    Console.WriteLine(arr[k]);
-
-                }
-            }
+            return Size;
         }
+        public static void NewArr(int Size, int ModNum, int IncreasingNum)
+        {
+            int[] NewArr = new int[Size];
+            for (int i = 0; i < Size; i++)
+            {
+
+                NewArr[i] = ModNum + IncreasingNum;
+                IncreasingNum = IncreasingNum + ModNum;
+                Console.Write(NewArr[i] + " ");
+            }
+
+
+        }
+
+
     }
+
+
 }
+
