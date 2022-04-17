@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\Task2\\Task2\\Task2.csproj": {}
+    "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\day-1\\Task2\\Task2\\Task2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\Task2\\Task2\\Task2.csproj": {
+    "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\day-1\\Task2\\Task2\\Task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\Task2\\Task2\\Task2.csproj",
+        "projectUniqueName": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\day-1\\Task2\\Task2\\Task2.csproj",
         "projectName": "Task2",
-        "projectPath": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\Task2\\Task2\\Task2.csproj",
+        "projectPath": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\day-1\\Task2\\Task2\\Task2.csproj",
         "packagesPath": "C:\\Users\\rcing\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\Task2\\Task2\\obj\\",
+        "outputPath": "C:\\Users\\rcing\\OneDrive\\İş masası\\HomeWorks\\day-1\\Task2\\Task2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

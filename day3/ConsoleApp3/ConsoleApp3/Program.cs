@@ -17,7 +17,6 @@ namespace ConsoleApp3
             
             while (divide>0)
             {
-
                 divide /= 10;
                 count++;
 

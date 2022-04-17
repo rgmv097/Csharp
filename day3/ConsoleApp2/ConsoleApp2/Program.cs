@@ -15,64 +15,66 @@ namespace ConsoleApp2
         }
         public static void Digit(int divide)
         {
-            if (divide<=50)
+            int count = 0;
+            for (int i = 0; i < divide; i++)
             {
-                Console.WriteLine(divide + " Ededine qeder 3 e bolunen edeler");
-
-                for (int i = 1; i < divide; i++)
+                if (divide < 50 && i % 3 == 0)
                 {
-
-                    if (i%3==0)
-                    {
-
-                       
-                        Console.WriteLine(i);
-
-                    }
+                    count++;
 
                 }
-
-
-            }
-            else if (divide>=50 && divide<=100)
-            {
-                Console.WriteLine(divide+" Ededine qeder 5 e bolunen edeler");
-                
-                for (int i = 1; i <= divide; i++)
+                else if (divide > 50 && divide < 100 && i % 5 == 0)
                 {
-
-                    if (i%5==0)
-                    {
-
-                        Console.WriteLine(i);
-
-                    }
+                    count++;
 
                 }
-
-
-            }
-            else if (divide > 100)
-            {
-                Console.WriteLine(divide + " Ededine qeder 8 e bolunen edeler");
-
-                for (int i = 1; i < divide; i++)
+                else if (divide > 100 && i % 8 == 0)
                 {
-                    if (i%8==0)
+                    count++;
+                }
+            }
+            Console.WriteLine("Masivin element sayi:" + count + "\n");
+            int[] arr = new int[count];
+            int k = 0;
+            for (int i = 0; i < divide; i++)
+            {
+
+                if (i % 3 == 0 && divide < 50)
+                {
+                    for (int j = 0; j < arr.Length; j++)
                     {
-                       
-
-                        Console.WriteLine(i);
-                    }
-
+                        arr[j] = i;
+                        arr[k] = arr[j];
+                    
+                  }
+                    Console.WriteLine(arr[k]);
                 }
 
+                else if (divide > 50 && divide < 100 && i % 5 == 0)
+                {
 
+                    for (int j = 0; j < arr.Length; j++)
+                    {
+                        arr[j] = i;
+                        arr[k] = arr[j];
+
+                    }
+                    Console.WriteLine(arr[k]);
+
+                }
+                else if (divide > 100 && i % 8 == 0)
+                {
+
+                    for (int j = 0; j < arr.Length; j++)
+                    {
+                        arr[j] = i;
+                        arr[k] = arr[j];
+
+                    }
+                    Console.WriteLine(arr[k]);
+
+                }
             }
-
-
-
-
         }
     }
 }

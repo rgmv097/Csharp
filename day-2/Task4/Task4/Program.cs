@@ -12,11 +12,10 @@ namespace Task4
             int digit;
             while (number>0)
             {
-                digit = number % 10;
+             digit = number % 10;
                 number /= 10;
                 sum+=digit;
-
-            }
+                 }
             Console.WriteLine(sum);
         }
     }
