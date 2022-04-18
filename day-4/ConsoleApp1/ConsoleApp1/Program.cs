@@ -9,15 +9,15 @@ namespace ConsoleApp1
             //1. Ededlerden ibaret array verilib, bu ededlerin en
             //boyuyunu tapmali.  Mes: [10,8,49,17,5] Ekrana en boyuk eded yazilmalidir: 49
             int[] arr = { 10, 8, 49, 17, 5 };
-            int max=0;
+            int MaxValue=0;
             foreach (int i in arr)
             {
-                if (i>max)
+                if (i>MaxValue)
                 {                 
-                    max=i;
+                    MaxValue =i;
                 }
             }
-            Console.WriteLine(max);
+            Console.WriteLine(MaxValue);
         }
     }
 }
