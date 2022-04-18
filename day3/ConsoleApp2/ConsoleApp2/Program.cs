@@ -9,28 +9,28 @@ namespace ConsoleApp5
             //1 eded daxil edin. Eger o eded 50den kicikdirse o edede qeder 3-e bolunen,
             //50-100 araligindadirsa o edede qeder 5e bolunen, 100den boyukdurse o edede qeder
             //8 e bolunen ededleri ayri bir arrayin icerisine elave edib, bolunen butun ededleri ekrana cixardan bir alqoritm
-            int InputName = Convert.ToInt32(Console.ReadLine());
+            int InputNum = Convert.ToInt32(Console.ReadLine());
             int size = 0;
             int InccreasingNum = 0;
-            if (InputName < 50)
+            if (InputNum < 50)
             {
                 int ModNum = 3;
 
-                size = SizeOfArr(InputName, size, ModNum);
+                size = SizeOfArr(InputNum, size, ModNum);
                 Console.WriteLine("Size OF ARR: " + size);
                 NewArr(size, ModNum, InccreasingNum);
             }
-            if (InputName > 50 && InputName < 100)
+            if (InputNum > 50 && InputNum < 100)
             {
                 int ModNum = 5;
-                size = SizeOfArr(InputName, size, ModNum);
+                size = SizeOfArr(InputNum, size, ModNum);
                 Console.WriteLine("Size OF ARR: " + size);
                 NewArr(size, ModNum, InccreasingNum);
             }
-            if (InputName > 100)
+            if (InputNum > 100)
             {
                 int ModNum = 8;
-                size = SizeOfArr(InputName, size, ModNum);
+                size = SizeOfArr(InputNum, size, ModNum);
                 Console.WriteLine("Size OF ARR: " + size);
                 NewArr(size, ModNum, InccreasingNum);
             }
