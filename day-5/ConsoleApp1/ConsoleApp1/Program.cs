@@ -6,19 +6,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            student student = new student("Chingiz", "Rahimov", "P324", 81,false);
+            Student student = new Student("Chingiz", "Rahimov", "P324", 81,false);
             Console.WriteLine(student.GetInfo());
             Console.WriteLine(student.PointsIncrease());
         }
     }
-    class student
+    class Student
     {
         public string Name;
         public string Surname;
         public string Group;
         public byte Point;
         public bool Graduated;
-        public student(string name, string surname, string group, byte point, bool isGraduated)
+        public Student(string name, string surname, string group, byte point, bool isGraduated)
         {
             Name = name;
             Surname = surname;
@@ -48,8 +48,5 @@ namespace ConsoleApp1
             if (Point > 80) { return "Ikinci Imthana gire biler"; }
             else { return "Ikinci Imtahana gire bilmez"; }
         }
-
-
-
     }
 }
