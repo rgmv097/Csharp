@@ -14,15 +14,7 @@ namespace ConsoleApp2
             {
                 newword += word[0].ToString().ToUpper() + word.Substring(1) + " ";
             }
-            Console.WriteLine(newword);
-           
-            
-           
-            
-          
-
-
-
+            Console.WriteLine(newword);         
         }
     }
 }
