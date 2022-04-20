@@ -11,7 +11,7 @@ namespace ConsoleApp2
             string newword = "";
             foreach (string word in words)
             {
-                newword += word[0].ToString().ToUpper()+word.Substring(1)+" "
+                newword += word[0].ToString().ToUpper() + word.Substring(1) + " ";
             }
             Console.WriteLine(newword);
            
