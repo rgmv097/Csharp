@@ -1,0 +1,14 @@
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\bin\Debug\netcoreapp3.1\ConsoleApp12.exe
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\bin\Debug\netcoreapp3.1\ConsoleApp12.deps.json
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\bin\Debug\netcoreapp3.1\ConsoleApp12.runtimeconfig.json
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\bin\Debug\netcoreapp3.1\ConsoleApp12.runtimeconfig.dev.json
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\bin\Debug\netcoreapp3.1\ConsoleApp12.dll
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\bin\Debug\netcoreapp3.1\ConsoleApp12.pdb
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\obj\Debug\netcoreapp3.1\ConsoleApp12.csproj.AssemblyReference.cache
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\obj\Debug\netcoreapp3.1\ConsoleApp12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\obj\Debug\netcoreapp3.1\ConsoleApp12.AssemblyInfoInputs.cache
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\obj\Debug\netcoreapp3.1\ConsoleApp12.AssemblyInfo.cs
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\obj\Debug\netcoreapp3.1\ConsoleApp12.csproj.CoreCompileInputs.cache
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\obj\Debug\netcoreapp3.1\ConsoleApp12.dll
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\obj\Debug\netcoreapp3.1\ConsoleApp12.pdb
+C:\Users\rcing\OneDrive\İş masası\QARALAMA\ConsoleApp12\ConsoleApp12\obj\Debug\netcoreapp3.1\ConsoleApp12.genruntimeconfig.cache
