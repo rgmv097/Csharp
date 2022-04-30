@@ -22,7 +22,7 @@ namespace ConsoleApp2
             bool result = false;
             do
             {
-                Console.Write("1-Mehsulu sat\n2-Mehsullar Haqqinda\n2-Programi Bagla\n- - - - -\n");
+                Console.Write("1-Mehsulu sat\n2-Mehsullar Haqqinda\n3-Programi Bagla\n- - - - -\n");
                 byte select=Convert.ToByte(Console.ReadLine());
                 if (select == 1)
                 {
