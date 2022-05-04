@@ -32,7 +32,7 @@ namespace ConsoleApp2
                 Count--;
                 TotalIncome += Price;
                 
-                Console.WriteLine($"Mehsul SATILDI\n- - - -\nMehsulun Adi: {ProductName}\nQiymeti: {Price}\nSayi: {Count}\nHecmi: {Volume}\nYagliligi: {FatRate}\nINCOME: {TotalIncome}\n");
+                Console.Write($"Mehsul SATILDI\n- - - -\nMehsulun Adi: {ProductName}\nQiymeti: {Price}\nSayi: {Count}\nHecmi: {Volume}\nYagliligi: {FatRate}\nINCOME: {TotalIncome}\n");
 
             }
             else { Console.WriteLine("- - - -\nMehsul bitib satila bilmez"); }

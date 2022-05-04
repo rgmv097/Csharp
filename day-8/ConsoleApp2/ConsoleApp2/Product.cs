@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp2
 {
-    internal abstract class Product
+    internal  abstract  class Product
     {
         public string ProductName { get; set; }
         public  int Price { get; set; }

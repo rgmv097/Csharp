@@ -6,8 +6,8 @@ namespace ConsoleApp1
     {
         public static void CustomContain(this string Word, string SearchWord)
         {
-            Word = Word.ToLower();
-            SearchWord = SearchWord.ToLower();
+            Word = Word.ToLower().Replace(" ","");
+            SearchWord = SearchWord.ToLower().Replace(" ", "");
             bool result = false;
             for (int i = 0; i < Word.Length - SearchWord.Length + 1; i++)
             {

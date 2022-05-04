@@ -29,7 +29,9 @@ namespace ConsoleApp2
                     milk.Sell();
                     Console.WriteLine("- - - - - ");
                 }
-                else if (select == 2) { milk.GetProduct(); }
+                else if (select == 2) { milk.GetProduct();
+                    Console.WriteLine("- - - - - - - - - -");
+                }
                 else if (select == 3) { result = true; }
                 else
                 {
