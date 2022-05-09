@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ConsoleApp5
 {
@@ -9,8 +7,9 @@ namespace ConsoleApp5
 
         private string _username;
         private string _password;
-        
+
         public User(string username, string password)
+
         {
 
             Password = password;
@@ -19,15 +18,17 @@ namespace ConsoleApp5
         }
         public string Username
         {
-            get {
+            get
+            {
                 return _username;
             }
 
-            set {
+            set
+            {
                 if (value.Length > 6)
                 {
                     _username = value;
-                    
+
                 }
                 else
                 {
@@ -47,7 +48,7 @@ namespace ConsoleApp5
             {
                 bool num1 = false;
                 bool num2 = false;
-                
+
                 if (value.Length > 6)
                 {
                     for (int i = 0; i < value.Length; i++)
@@ -64,17 +65,17 @@ namespace ConsoleApp5
                         }
 
                     }
-                    if(num1 == true && num2 == true)
+                    if (num1 == true && num2 == true)
                     {
                         _password = value;
-                        
-                        
-                        
+
+
+
                     }
                     else
                     {
                         Console.WriteLine("ena z 1 boyuk herf ve 1 reqem olmalidir");
-                         
+
                     }
                 }
                 else
@@ -87,6 +88,6 @@ namespace ConsoleApp5
     }
 
 
-    }
+}
 
 

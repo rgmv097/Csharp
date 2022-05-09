@@ -10,14 +10,10 @@
         {
             ProductName = productName;
             Price = price;
-            Count = count;
-            
+            Count = count;         
         }
       
         public abstract void Sell();
         public abstract void GetProduct();
-
-
-
     }
 }

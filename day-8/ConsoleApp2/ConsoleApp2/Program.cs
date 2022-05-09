@@ -6,7 +6,6 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-
             Console.Write("Elave edeceyiniz mehsulun adi: ");
             string ProductName = Console.ReadLine();
             Console.Write("Mehsulun Qiymeti: ");
@@ -37,7 +36,6 @@ namespace ConsoleApp2
                 {
                     Console.WriteLine("Duzgun reqemi sechin");
                 }
-
             } while (result!=true);
            
             

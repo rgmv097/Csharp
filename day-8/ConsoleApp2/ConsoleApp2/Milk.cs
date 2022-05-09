@@ -7,7 +7,7 @@ namespace ConsoleApp2
         public static float Volume;
         public static float FatRate;
 
-        public Milk(string ProductName, int Price, int Count, float volume, float fatRate) : base(ProductName, Price, Count)
+        public Milk(string productName, int Price, int Count, float volume, float fatRate) : base(productName, Price, Count)
         {
 
             Volume = volume;
