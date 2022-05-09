@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApp1.Interfaces;
 namespace ConsoleApp1
 {
     internal class Program
@@ -33,10 +34,16 @@ namespace ConsoleApp1
                     Console.WriteLine("- - - - - - -");
                     goto NewPlace;
             }
+
         }
         public static void Print(MainPrintFile print)
         {
-            print.Print();
+            if (print is IPrintable)
+            {
+                IPrintable printable = (IPrintable)print;
+                printable.Print();
+            }
         }
+
     }
 }

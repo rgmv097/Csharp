@@ -1,12 +1,13 @@
-﻿using System;
+﻿using ConsoleApp1.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ConsoleApp1
 {
-    internal class PDF : MainPrintFile
+    internal class PDF : MainPrintFile, IPrintable
     {
-        public override void Print()
+        public void Print()
         {
             Console.WriteLine("PDF chap edildi");
         }
