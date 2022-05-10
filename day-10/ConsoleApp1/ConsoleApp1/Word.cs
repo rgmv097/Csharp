@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    internal class Word : MainPrintFile, IPrintable
+    internal class Word : IPrintable
     {
         public void Print()
         {

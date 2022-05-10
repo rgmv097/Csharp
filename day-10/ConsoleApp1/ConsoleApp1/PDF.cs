@@ -5,8 +5,10 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    internal class PDF : MainPrintFile, IPrintable
+    internal class PDF :IPrintable
     {
+       
+
         public void Print()
         {
             Console.WriteLine("PDF chap edildi");
