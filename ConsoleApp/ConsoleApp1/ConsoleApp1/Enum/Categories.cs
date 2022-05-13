@@ -6,7 +6,7 @@ namespace ConsoleApp1.Enum
 {
     enum Categories
     {
-        Programming,
+        Programming=1,
         Design,
         System_Adminstration,
         English,

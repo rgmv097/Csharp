@@ -1,33 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ConsoleApp1.Models
+﻿namespace ConsoleApp1.Models
 {
     internal class Student
     {
-        public static int Id;
-        public  string FullName;
-        public  string GroupNo;
+        public int Id;
+        public string FullName;
         public bool IsType;
+        public static int Count;
         static Student()
         {
 
-            Id = 1;
+            Count = 0;
         }
-        public Student(string fullName, string groupNo, bool isType)
+        public Student(string fullName,bool isType)
         {
             FullName = fullName;
-            GroupNo = groupNo;
             IsType = isType;
-            Id++;
+            Id = ++Count;
 
 
         }
 
         public override string ToString()
         {
-            return $"Fullname: {FullName}, Group No: {GroupNo}, Status: {(IsType ? "Zemanetli" : "Zemanetsiz")}";
+            return $"Fullname: {FullName},Student ID: {Id},  Status: {(IsType ? "Zemanetli" : "Zemanetsiz")}";
         }
     }
 }

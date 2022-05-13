@@ -1,7 +1,5 @@
 ﻿using ConsoleApp1.Enum;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ConsoleApp1.Models
 {
@@ -10,45 +8,46 @@ namespace ConsoleApp1.Models
         public string No;
         public Categories Category;
         public bool IsOnline;
-        public  byte Limit;
+        public byte Limit;
         public List<Student> students;
-        public static int count;
+        public static int Count;
         static Group()
         {
-            count = 324;
+            Count = 324;          
         }
         public Group(Categories category, bool isOnline)
         {
             switch (category)
             {
                 case Categories.Programming:
-                    No = $"P-" + count;
+                    No = $"P-" + Count;
                     break;
                 case Categories.Design:
-                    No = $"D-" + count;
+                    No = $"D-" + Count;
                     break;
                 case Categories.System_Adminstration:
-                    No = $"SA-" + count;
+                    No = $"SA-" + Count;
                     break;
                 case Categories.English:
-                    No = $"EN-" + count;
+                    No = $"EN-" + Count;
                     break;
                 case Categories.Digital_Marketing:
-                    No = $"DM-" + count;
+                    No = $"DM-" + Count;
                     break;
                 default:
                     break;
             }
+            ++Count;
             if (isOnline == true)
             {
                 Limit = 15;
             }
             else { Limit = 10; }
-
-            count++;
+            
+            
             IsOnline = isOnline;
             Category = category;
-            students= new List<Student>();                
+            students = new List<Student>();
         }
         public override string ToString()
         {

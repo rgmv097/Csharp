@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.Enum;
+using ConsoleApp1.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +14,7 @@ namespace ConsoleApp1.Interface.IGroup
         void EditGroupNo(string OldNo, string NewNo);
         void GetGroupStudents(string GroupNo);
         void GetAllStudents();
-        void CreateStudents();
-        void DeleteStudent();
+        void CreateStudents(Student student, string GroupNo);
+        void DeleteStudent(int studentId, string GroupNo);
     }
 }
