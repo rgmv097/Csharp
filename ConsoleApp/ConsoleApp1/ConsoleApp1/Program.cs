@@ -20,6 +20,8 @@ namespace ConsoleApp1
                 Console.WriteLine("5. Show All Student");
                 Console.WriteLine("6. Show Groups Of Students");
                 Console.WriteLine("7. Delete Student");
+                Console.WriteLine("8. Clear Console");
+                Console.WriteLine("0. Exit");
                 bool result = int.TryParse(Console.ReadLine(), out selection);
                 Console.Clear();
                 switch (selection)
@@ -44,6 +46,11 @@ namespace ConsoleApp1
                         break;
                     case 7:
                         MenuSettings.DeleteStudent();
+                        break;
+                    case 8:
+                        Console.Clear();
+                        break;
+                    case 0:
                         break;
                     default:
                         Console.WriteLine("Something went wrong");

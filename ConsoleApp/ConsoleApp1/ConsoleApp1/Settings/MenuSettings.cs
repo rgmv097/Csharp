@@ -10,12 +10,12 @@ namespace ConsoleApp1.Settings
         public static void CreateGroup()
         {
             Console.WriteLine("Group is Online or Offline? On/Off");
-            bool isOnline=false;
+            bool isOnline = false;
             string Choose;
             do
             {
                 Choose = (Console.ReadLine());
-                Choose =Choose.ToLower().Trim();
+                Choose = Choose.ToLower().Trim();
                 if (Choose == "on")
                 {
                     isOnline = true;
@@ -41,7 +41,7 @@ namespace ConsoleApp1.Settings
             if (categoryResult)
             {
 
-                groupSettings.CreateGroup((Categories) category, isOnline);
+                groupSettings.CreateGroup((Categories)category, isOnline);
             }
             else
             {
@@ -55,32 +55,44 @@ namespace ConsoleApp1.Settings
         }
         public static void EditGroupNo()
         {
-            Console.WriteLine("Please enter Group no");
-            string OldNo = Console.ReadLine();
-
-            Console.WriteLine("Please enter new Grup no");
-            string NewNo = Console.ReadLine();
-
-            groupSettings.EditGroupNo(OldNo, NewNo);
-        }
-        public static void AddStudent()
-        {           
-            Console.Write("Enter Full Name: ");
-            string fullName=Console.ReadLine();
-            Console.Write("Enter Group Name: ");
-            string GroupNo=Console.ReadLine();
-            Console.Write("Enter insured or uninsured ");
-            string Select;
-            bool isType = false;
-            do
+            if (groupSettings.Groups.Count > 0)
             {
-                Console.WriteLine("Choose: I or U");
-                Select = Console.ReadLine().ToUpper();
-            } while (Select != "I" && Select != "U");
-            if(Select=="I")isType = true;
-            if (Select == "U") isType = false;
-            Student student = new Student(fullName,isType);
-            groupSettings.CreateStudents(student, GroupNo);
+                Console.WriteLine("Please enter Group no");
+                string OldNo = Console.ReadLine();
+                Console.WriteLine("Please enter new Grup no");
+                string NewNo = Console.ReadLine();
+                groupSettings.EditGroupNo(OldNo, NewNo);
+            }
+            else
+            {
+                Console.WriteLine("Theres is no any group in System ");
+            }
+    }
+        public static void AddStudent()
+        {
+            if (groupSettings.Groups.Count > 0)
+            {
+                Console.Write("Enter Full Name: ");
+                string fullName = Console.ReadLine();
+                Console.Write("Enter Group Name: ");
+                string GroupNo = Console.ReadLine();
+                Console.Write("Enter insured or uninsured ");
+                string Select;
+                bool isType = false;
+                do
+                {
+                    Console.WriteLine("Choose: I or U");
+                    Select = Console.ReadLine().ToUpper();
+                } while (Select != "I" && Select != "U");
+                if (Select == "I") isType = true;
+                if (Select == "U") isType = false;
+                Student student = new Student(fullName, isType);
+                groupSettings.CreateStudents(student, GroupNo);
+            }
+            else
+            {
+                Console.WriteLine("There is no any group in System");
+            }
         }
         public static void ShowAllStudents()
         {
@@ -88,21 +100,50 @@ namespace ConsoleApp1.Settings
         }
         public static void GetGroupStudents()
         {
+
             GetGroups();
-            Console.WriteLine("- - - - - - -\nEnter Group Name: ");
-            string GroupNo = Console.ReadLine().ToUpper().Trim();
-            groupSettings.GetGroupStudents(GroupNo);
+            if (groupSettings.Groups.Count > 0)
+            {
+                Console.WriteLine("- - - - - - -\nEnter Group Name: ");
+                string GroupNo = Console.ReadLine().ToUpper().Trim();
+                groupSettings.GetGroupStudents(GroupNo);
+            }
+            else
+            {
+
+            }
         }
         public static void DeleteStudent()
         {
-            Console.Write("Enter Gropu Name ");
-            string GroupNo = Console.ReadLine();
-            Console.Write("Select Student ID: ");
-            int Id = Convert.ToInt32(Console.ReadLine());
-            groupSettings.DeleteStudent(Id, GroupNo);
+
+            if (groupSettings.Groups.Count > 0)
+            {
+                Console.Write("Enter Group Name ");
+                string GroupNo = Console.ReadLine();
+                Console.WriteLine("There is no Group in system");
+
+            IDPlace:
+                Console.Write("Select Student ID: ");
+                bool result = int.TryParse(Console.ReadLine(), out int Id);
+                if (result)
+                {
+                    groupSettings.DeleteStudent(Id, GroupNo);
+                }
+                else
+                {
+                    Console.WriteLine("Pls enter the int ID");
+                    goto IDPlace;
+
+                }
 
 
+            }
+            else
+            {
+                Console.WriteLine("There is no group in system");
+            }
         }
+
     }
 }
 

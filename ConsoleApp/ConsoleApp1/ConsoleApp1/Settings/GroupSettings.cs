@@ -93,6 +93,11 @@ namespace ConsoleApp1.Settings
 
                         break;
                     }
+                    else
+                    {
+                        Console.WriteLine("There is no this ID in sytsem");
+                        
+                    }
                 }
             }
             else { Console.WriteLine("There is no any Group"); }
